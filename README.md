@@ -1,0 +1,1 @@
+# adminer-show-column-comment
