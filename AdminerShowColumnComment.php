@@ -1,5 +1,6 @@
 <?php
 /**
+ * Adminer plugin
  * Displays column comment in table header data-listing page
  *
  * Install to Adminer on http://www.adminer.org/plugins/
