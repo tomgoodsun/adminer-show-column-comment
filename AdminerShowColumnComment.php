@@ -14,6 +14,7 @@ class AdminerShowColumnComment
      *
      * @param array $field
      * @param int $order
+     * @return string
      */
     public function fieldName($field, $order = 0)
     {
