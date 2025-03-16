@@ -18,9 +18,9 @@ class AdminerShowColumnComment
      */
     public function fieldName($field, $order = 0)
     {
-        $name = h($field['field']);
+        $name = Adminer\h($field['field']);
         if (!empty($field['comment'])) {
-            $name .= '<br />' . h($field['comment']);
+            $name .= '<br />' . Adminer\h($field['comment']);
         }
         return $name;
     }
